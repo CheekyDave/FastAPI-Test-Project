@@ -1,0 +1,26 @@
+# --- Python Essentials ---
+__pycache__/
+*.pyc
+
+# --- Secrets (Critical) ---
+.env
+
+# --- Environments ---
+# Covers common names. CHECK: What did you name your conda folder?
+.venv
+.conda
+env/
+venv/
+ENV/
+
+# --- Testing ---
+# Pytest generates this folder every time you run tests
+.pytest_cache/
+
+# --- Mac OS (Since you are on a Mac) ---
+# Prevents that annoying system file from appearing in your repo
+.DS_Store
+
+# --- VS Code ---
+# Optional: Ignore local IDE settings, but keep shared settings if you want
+.vscode/
